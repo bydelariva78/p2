@@ -1,0 +1,37 @@
+/* Estilos generales para todas las páginas */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    margin: 20px;
+    padding: 20px;
+    background-color: #87CEEB; /* Fondo azul *87CEEB*/
+    text-align: center; /* Centrar el contenido */
+}
+
+h1, h2 {
+    font-weight: bold; /* Títulos en negrita */
+}
+
+img {
+    width: 100%; /* Ancho completo dentro del contenedor */
+    max-width: 600px; /* Tamaño máximo de la imagen */
+    display: block;
+    margin: 20px auto; /* Centrar la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+/* Centrando la tabla */
+table {
+    margin: 20px auto; /* Centrar la tabla horizontalmente */
+    border-collapse: collapse; /* Unir los bordes de la tabla */
+    width: 80%; /* Ajustar el ancho de la tabla */
+}
+
+th, td {
+    border: 1px solid black; /* Bordes de las celdas */
+    padding: 10px;
+    text-align: center; /* Centrar el texto dentro de las celdas */
+}
+
+th {
+    background-color: #005f99;
+    color: white;
+}
